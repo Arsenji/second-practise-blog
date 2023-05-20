@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2c90a764-b6d6-4ca5-bda7-3945e44895bb" name="Changes" comment="A project was created on yii2. Migrations have been carried out.">
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/php-test-framework.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/second-practise-blog.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/.bowerrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/Vagrantfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/assets/AppAsset.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/codeception.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/commands/HelloController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/config/__autocomplete.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/config/console.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/config/db.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/config/params.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/config/test.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/config/test_db.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/config/web.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/controllers/SiteController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/mail/layouts/html.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/mail/layouts/text.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/migrations/m230514_155211_create_article_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/migrations/m230514_181356_create_category_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/migrations/m230514_181423_create_tag_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/migrations/m230514_181442_create_user_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/migrations/m230514_181506_create_comment_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/migrations/m230514_181538_create_article_tag_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/models/ContactForm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/models/LoginForm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/models/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/requirements.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/runtime/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/tests/_bootstrap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/tests/_data/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/tests/_output/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/tests/_support/AcceptanceTester.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/tests/_support/FunctionalTester.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/tests/_support/UnitTester.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/tests/acceptance.suite.yml.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/tests/acceptance/AboutCest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/tests/acceptance/ContactCest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/tests/acceptance/HomeCest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/tests/acceptance/LoginCest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/tests/acceptance/_bootstrap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/tests/bin/yii" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/tests/bin/yii.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/tests/functional.suite.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/tests/functional/ContactFormCest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/tests/functional/LoginFormCest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/tests/functional/_bootstrap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/tests/unit.suite.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/tests/unit/_bootstrap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/tests/unit/models/ContactFormTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/tests/unit/models/LoginFormTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/tests/unit/models/UserTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/tests/unit/widgets/AlertTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/vagrant/config/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/vagrant/config/vagrant-local.example.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/vagrant/nginx/app.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/vagrant/nginx/log/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/vagrant/provision/always-as-root.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/vagrant/provision/once-as-root.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/vagrant/provision/once-as-vagrant.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/vagrant/provision/provision.awk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/views/layouts/main.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/views/site/about.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/views/site/contact.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/views/site/error.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/views/site/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/views/site/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/web/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/web/assets/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/web/css/site.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/web/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/web/index-test.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/web/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/web/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/widgets/Alert.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/yii" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/yii.bat" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="DONT_SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/basic/composer.json</pharConfigPath>
+    <execution>
+      <phar pharPath="D:\OpenServer\userdata\composer\composer.phar" />
+    </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/basic/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/basic/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/basic/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/basic/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/basic/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/basic/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/basic/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/basic/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/basic/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/basic/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/basic/vendor/yiisoft/yii2" />
+      <path value="$PROJECT_DIR$/basic/vendor/yiisoft/yii2-bootstrap5" />
+      <path value="$PROJECT_DIR$/basic/vendor/yiisoft/yii2-composer" />
+      <path value="$PROJECT_DIR$/basic/vendor/yiisoft/yii2-debug" />
+      <path value="$PROJECT_DIR$/basic/vendor/yiisoft/yii2-faker" />
+      <path value="$PROJECT_DIR$/basic/vendor/yiisoft/yii2-gii" />
+      <path value="$PROJECT_DIR$/basic/vendor/yiisoft/yii2-symfonymailer" />
+      <path value="$PROJECT_DIR$/basic/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/basic/vendor/composer" />
+      <path value="$PROJECT_DIR$/basic/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/basic/vendor/fakerphp/faker" />
+      <path value="$PROJECT_DIR$/basic/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/basic/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/basic/vendor/sebastian/cli-parser" />
+      <path value="$PROJECT_DIR$/basic/vendor/sebastian/code-unit" />
+      <path value="$PROJECT_DIR$/basic/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/basic/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/basic/vendor/sebastian/complexity" />
+      <path value="$PROJECT_DIR$/basic/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/basic/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/basic/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/basic/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/basic/vendor/sebastian/lines-of-code" />
+      <path value="$PROJECT_DIR$/basic/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/basic/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/basic/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/basic/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/basic/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/basic/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/basic/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/basic/vendor/bower-asset/bootstrap" />
+      <path value="$PROJECT_DIR$/basic/vendor/bower-asset/inputmask" />
+      <path value="$PROJECT_DIR$/basic/vendor/bower-asset/jquery" />
+      <path value="$PROJECT_DIR$/basic/vendor/bower-asset/punycode" />
+      <path value="$PROJECT_DIR$/basic/vendor/bower-asset/yii2-pjax" />
+      <path value="$PROJECT_DIR$/basic/vendor/codeception/codeception" />
+      <path value="$PROJECT_DIR$/basic/vendor/codeception/lib-asserts" />
+      <path value="$PROJECT_DIR$/basic/vendor/codeception/lib-innerbrowser" />
+      <path value="$PROJECT_DIR$/basic/vendor/codeception/module-asserts" />
+      <path value="$PROJECT_DIR$/basic/vendor/codeception/module-filesystem" />
+      <path value="$PROJECT_DIR$/basic/vendor/codeception/module-yii2" />
+      <path value="$PROJECT_DIR$/basic/vendor/codeception/phpunit-wrapper" />
+      <path value="$PROJECT_DIR$/basic/vendor/codeception/stub" />
+      <path value="$PROJECT_DIR$/basic/vendor/codeception/verify" />
+      <path value="$PROJECT_DIR$/basic/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/basic/vendor/psr/event-dispatcher" />
+      <path value="$PROJECT_DIR$/basic/vendor/psr/http-factory" />
+      <path value="$PROJECT_DIR$/basic/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/basic/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/basic/vendor/cebe/markdown" />
+      <path value="$PROJECT_DIR$/basic/vendor/behat/gherkin" />
+      <path value="$PROJECT_DIR$/basic/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/basic/vendor/ezyang/htmlpurifier" />
+      <path value="$PROJECT_DIR$/basic/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/basic/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/basic/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/basic/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/basic/vendor/phpspec/php-diff" />
+      <path value="$PROJECT_DIR$/basic/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/basic/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/basic/vendor/phpunit/php-invoker" />
+      <path value="$PROJECT_DIR$/basic/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/basic/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/basic/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/basic/vendor/symfony/browser-kit" />
+      <path value="$PROJECT_DIR$/basic/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/basic/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/basic/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/basic/vendor/symfony/dom-crawler" />
+      <path value="$PROJECT_DIR$/basic/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/basic/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/basic/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/basic/vendor/symfony/mailer" />
+      <path value="$PROJECT_DIR$/basic/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/basic/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/basic/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/basic/vendor/bower-asset/typeahead.js" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="2O3VI61drLhCMKTCBBp0NZj9j1y" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/OpenServer/domains/second-practise-blog&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.PHP&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2c90a764-b6d6-4ca5-bda7-3945e44895bb" name="Changes" comment="" />
+      <created>1680789170113</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1680789170113</updated>
+      <workItem from="1680789171404" duration="5945000" />
+      <workItem from="1681038996793" duration="7424000" />
+      <workItem from="1682930168993" duration="3213000" />
+      <workItem from="1683023069086" duration="34000" />
+      <workItem from="1683023119807" duration="37000" />
+      <workItem from="1683033194005" duration="4753000" />
+      <workItem from="1683368203933" duration="8259000" />
+      <workItem from="1684078975849" duration="5615000" />
+      <workItem from="1684590737691" duration="2043000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="A project was created on yii2. Migrations have been carried out." />
+    <option name="LAST_COMMIT_MESSAGE" value="A project was created on yii2. Migrations have been carried out." />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
