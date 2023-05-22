@@ -1,0 +1,131 @@
+<?php return array(
+    'root' => array(
+        'name' => '__root__',
+        'pretty_version' => '1.0.0+no-version-set',
+        'version' => '1.0.0.0',
+        'reference' => NULL,
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => true,
+    ),
+    'versions' => array(
+        '__root__' => array(
+            'pretty_version' => '1.0.0+no-version-set',
+            'version' => '1.0.0.0',
+            'reference' => NULL,
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'bower-asset/bootstrap' => array(
+            'dev_requirement' => false,
+            'provided' => array(
+                0 => '*',
+            ),
+        ),
+        'bower-asset/inputmask' => array(
+            'dev_requirement' => false,
+            'provided' => array(
+                0 => '*',
+            ),
+        ),
+        'bower-asset/jquery' => array(
+            'dev_requirement' => false,
+            'provided' => array(
+                0 => '*',
+            ),
+        ),
+        'bower-asset/punycode' => array(
+            'dev_requirement' => false,
+            'provided' => array(
+                0 => '*',
+            ),
+        ),
+        'bower-asset/typeahead.js' => array(
+            'dev_requirement' => false,
+            'provided' => array(
+                0 => '*',
+            ),
+        ),
+        'bower-asset/yii2-pjax' => array(
+            'dev_requirement' => false,
+            'provided' => array(
+                0 => '*',
+            ),
+        ),
+        'cebe/markdown' => array(
+            'pretty_version' => '1.2.1',
+            'version' => '1.2.1.0',
+            'reference' => '9bac5e971dd391e2802dca5400bbeacbaea9eb86',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../cebe/markdown',
+            'aliases' => array(),
+            'dev_requirement' => true,
+        ),
+        'ezyang/htmlpurifier' => array(
+            'pretty_version' => 'v4.16.0',
+            'version' => '4.16.0.0',
+            'reference' => '523407fb06eb9e5f3d59889b3978d5bfe94299c8',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../ezyang/htmlpurifier',
+            'aliases' => array(),
+            'dev_requirement' => true,
+        ),
+        'paragonie/random_compat' => array(
+            'pretty_version' => 'v9.99.100',
+            'version' => '9.99.100.0',
+            'reference' => '996434e5492cb4c3edcb9168db6fbb1359ef965a',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../paragonie/random_compat',
+            'aliases' => array(),
+            'dev_requirement' => true,
+        ),
+        'phpspec/php-diff' => array(
+            'pretty_version' => 'v1.1.3',
+            'version' => '1.1.3.0',
+            'reference' => 'fc1156187f9f6c8395886fe85ed88a0a245d72e9',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../phpspec/php-diff',
+            'aliases' => array(),
+            'dev_requirement' => true,
+        ),
+        'yidas/yii2-bower-asset' => array(
+            'pretty_version' => '2.0.13.1',
+            'version' => '2.0.13.1',
+            'reference' => '056dd55087e0b945c01c91c99eb346ef6e28a42e',
+            'type' => 'yii2-extension',
+            'install_path' => __DIR__ . '/../yidas/yii2-bower-asset',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'yiisoft/yii2' => array(
+            'pretty_version' => '2.0.47',
+            'version' => '2.0.47.0',
+            'reference' => '8ecf57895d9c4b29cf9658ffe57af5f3d0e25254',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../yiisoft/yii2',
+            'aliases' => array(),
+            'dev_requirement' => true,
+        ),
+        'yiisoft/yii2-composer' => array(
+            'pretty_version' => '2.0.10',
+            'version' => '2.0.10.0',
+            'reference' => '94bb3f66e779e2774f8776d6e1bdeab402940510',
+            'type' => 'composer-plugin',
+            'install_path' => __DIR__ . '/../yiisoft/yii2-composer',
+            'aliases' => array(),
+            'dev_requirement' => true,
+        ),
+        'yiisoft/yii2-gii' => array(
+            'pretty_version' => '2.2.5',
+            'version' => '2.2.5.0',
+            'reference' => 'e2f2dcf0f16713e678df6ba70362c99a215a8f72',
+            'type' => 'yii2-extension',
+            'install_path' => __DIR__ . '/../yiisoft/yii2-gii',
+            'aliases' => array(),
+            'dev_requirement' => true,
+        ),
+    ),
+);
