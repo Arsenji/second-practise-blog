@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c90a764-b6d6-4ca5-bda7-3945e44895bb" name="Changes" comment="">
+    <list default="true" id="2c90a764-b6d6-4ca5-bda7-3945e44895bb" name="Changes" comment="Аdded the ability to add images">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/models/Article.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/models/Article.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/modules/admin/controllers/ArticleController.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/modules/admin/controllers/ArticleController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/modules/admin/views/article/_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/modules/admin/views/article/_form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/modules/admin/views/article/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/modules/admin/views/article/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/modules/admin/views/article/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/modules/admin/views/article/view.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,7 +176,10 @@
       <workItem from="1684691907089" duration="19000" />
       <workItem from="1684755841931" duration="592000" />
       <workItem from="1684758569471" duration="552000" />
-      <workItem from="1684765817118" duration="2408000" />
+      <workItem from="1684765817118" duration="4297000" />
+      <workItem from="1685183249128" duration="2236000" />
+      <workItem from="1685191849445" duration="8607000" />
+      <workItem from="1685268954673" duration="2561000" />
     </task>
     <task id="LOCAL-00001" summary="A project was created on yii2. Migrations have been carried out.">
       <created>1684598537665</created>
@@ -276,7 +284,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="A project was created on yii2. Migrations have been carried out." />
     <MESSAGE value="A project was created on yii2. Migrations have been carried out. Add gii and create admin panel" />
-    <option name="LAST_COMMIT_MESSAGE" value="A project was created on yii2. Migrations have been carried out. Add gii and create admin panel" />
+    <MESSAGE value="Аdded the ability to add images" />
+    <option name="LAST_COMMIT_MESSAGE" value="Аdded the ability to add images" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
