@@ -23,7 +23,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
     <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
 
-    <?= GridView::widget([
+    <?= GridView::widget(config: [
         'dataProvider' => $dataProvider,
         'filterModel' => $searchModel,
         'columns' => [
@@ -34,6 +34,14 @@ $this->params['breadcrumbs'][] = $this->title;
             'description:ntext',
             'content:ntext',
             'date',
+            [
+                'format'=>'html',
+                'label'=>'image',
+                'value'=>function($data)
+                {
+                    return Html::img($data->getImage());
+                }
+            ],
             //'image',
             //'viewed',
             //'user_id',

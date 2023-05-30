@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c90a764-b6d6-4ca5-bda7-3945e44895bb" name="Changes" comment="Аdded the ability to add images">
+      <change afterPath="$PROJECT_DIR$/basic/modules/admin/views/article/image.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/basic/models/Article.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/models/Article.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/models/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/models/Category.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/basic/modules/admin/controllers/ArticleController.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/modules/admin/controllers/ArticleController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/basic/modules/admin/views/article/_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/modules/admin/views/article/_form.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/basic/modules/admin/views/article/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/modules/admin/views/article/index.php" afterDir="false" />
@@ -180,6 +182,7 @@
       <workItem from="1685183249128" duration="2236000" />
       <workItem from="1685191849445" duration="8607000" />
       <workItem from="1685268954673" duration="2561000" />
+      <workItem from="1685290778080" duration="9847000" />
     </task>
     <task id="LOCAL-00001" summary="A project was created on yii2. Migrations have been carried out.">
       <created>1684598537665</created>
@@ -201,6 +204,17 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -221,6 +235,31 @@
                     <value>
                       <list>
                         <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="4917b6fc-413d-4c4c-9ed1-37254917e27e">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:D:/OpenServer/domains/second-practise-blog/basic/models" />
                       </list>
                     </value>
                   </entry>
@@ -263,6 +302,11 @@
             </State>
           </value>
         </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="4917b6fc-413d-4c4c-9ed1-37254917e27e" value="TOOL_WINDOW" />
       </map>
     </option>
     <option name="RECENT_FILTERS">
