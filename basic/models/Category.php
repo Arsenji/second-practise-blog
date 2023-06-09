@@ -9,6 +9,7 @@ use Yii;
  *
  * @property int $id
  * @property string|null $title
+ * @property string|null $category
  */
 class Category extends \yii\db\ActiveRecord
 {
@@ -44,7 +45,17 @@ class Category extends \yii\db\ActiveRecord
 
     public function getArticles()
     {
-        return $this->hasMany(Article::class(), ['customer_id'=>'id']);
+        return $this->hasMany(Article::className(), ['category_id' => 'id']);
+    }
+
+    public function getArticlesCount()
+    {
+        return $this->getArticles()->count();
+    }
+
+    public static function getAll()
+    {
+        return Category::find()->all();
     }
 
 

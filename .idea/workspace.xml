@@ -4,15 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c90a764-b6d6-4ca5-bda7-3945e44895bb" name="Changes" comment="Аdded the ability to add images">
-      <change afterPath="$PROJECT_DIR$/basic/modules/admin/views/article/image.php" afterDir="false" />
+    <list default="true" id="2c90a764-b6d6-4ca5-bda7-3945e44895bb" name="Changes" comment="Add">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/config/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/config/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/controllers/SiteController.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/controllers/SiteController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/basic/models/Article.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/models/Article.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/basic/models/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/models/Category.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/models/Tag.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/models/Tag.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/basic/modules/admin/controllers/ArticleController.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/modules/admin/controllers/ArticleController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/modules/admin/views/article/_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/modules/admin/views/article/_form.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/modules/admin/views/article/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/modules/admin/views/article/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/basic/modules/admin/views/article/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/modules/admin/views/article/view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/views/layouts/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/views/layouts/main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/views/site/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/views/site/about.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/views/site/error.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/views/site/error.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/views/site/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/views/site/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +33,13 @@
     <favorite-branches>
       <branch-storage>
         <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="main" />
+              </list>
+            </value>
+          </entry>
           <entry type="REMOTE">
             <value>
               <list>
@@ -40,6 +51,7 @@
       </branch-storage>
     </favorite-branches>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -156,6 +168,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\OpenServer\domains\second-practise-blog\basic\web\public\css" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -182,7 +199,11 @@
       <workItem from="1685183249128" duration="2236000" />
       <workItem from="1685191849445" duration="8607000" />
       <workItem from="1685268954673" duration="2561000" />
-      <workItem from="1685290778080" duration="9847000" />
+      <workItem from="1685290778080" duration="10130000" />
+      <workItem from="1685460572898" duration="9519000" />
+      <workItem from="1685611817336" duration="10855000" />
+      <workItem from="1685790457444" duration="9629000" />
+      <workItem from="1685889298177" duration="33397000" />
     </task>
     <task id="LOCAL-00001" summary="A project was created on yii2. Migrations have been carried out.">
       <created>1684598537665</created>
@@ -198,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684767852044</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Аdded the ability to add category">
+      <created>1685439284271</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1685439284271</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -329,7 +357,9 @@
     <MESSAGE value="A project was created on yii2. Migrations have been carried out." />
     <MESSAGE value="A project was created on yii2. Migrations have been carried out. Add gii and create admin panel" />
     <MESSAGE value="Аdded the ability to add images" />
-    <option name="LAST_COMMIT_MESSAGE" value="Аdded the ability to add images" />
+    <MESSAGE value="Аdded the ability to add category" />
+    <MESSAGE value="Add" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
