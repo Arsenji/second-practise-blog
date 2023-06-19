@@ -81,19 +81,8 @@ PublicAsset::register($this);
         <div class="row">
             <div class="col-md-4">
                 <aside class="footer-widget">
-                    <div class="about-img"><img src="/public/images/logo2.png" alt=""></div>
-                    <div class="about-content">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-                        eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed voluptua. At vero eos et
-                        accusam et justo duo dlores et ea rebum magna text ar koto din.
-                    </div>
-                    <div class="address">
-                        <h4 class="text-uppercase">contact Info</h4>
-
-                        <p> 14529/12 NK Streets, DC, KZ</p>
-
-                        <p> Phone: +123 456 78900</p>
-
-                        <p>mytreasure.com</p>
+                    <div class="about-img"><img src="/public/images/klaksa.jpg" alt=""></div>
+                    <div class="about-content">Klyksa
                     </div>
                 </aside>
             </div>
@@ -182,8 +171,7 @@ PublicAsset::register($this);
                             <a href="#"><img src="/public/images/footer-img.png" alt=""></a>
                         </div>
                         <div>
-                            <a href="#" class="text-uppercase">Home is peaceful Place</a>
-                            <span class="p-date">February 15, 2016</span>
+                            <span class="p-date">2023</span>
                         </div>
                     </div>
                 </aside>
@@ -194,8 +182,8 @@ PublicAsset::register($this);
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <div class="text-center">&copy; 2015 <a href="#">Treasure PRO, </a> Built with <i
-                                class="fa fa-heart"></i> by <a href="#">Rahim</a>
+                    <div class="text-center">&copy; 2015 <a href="#"></a> Built with <i
+                                class="fa fa-heart"></i> by <a href="#">Arsen</a>
                     </div>
                 </div>
             </div>

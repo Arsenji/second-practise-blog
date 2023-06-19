@@ -1,0 +1,35 @@
+Index: basic/modules/admin/views/article/image.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/basic/modules/admin/views/article/image.php b/basic/modules/admin/views/article/image.php
+new file mode 100644
+--- /dev/null	(date 1685290033133)
++++ b/basic/modules/admin/views/article/image.php	(date 1685290033133)
+@@ -0,0 +1,25 @@
++<?php
++
++use yii\helpers\Html;
++use yii\widgets\ActiveForm;
++
++/** @var yii\web\View $this */
++/** @var app\models\Article $model */
++/** @var yii\widgets\ActiveForm $form */
++?>
++
++<div class="article-form">
++
++    <?php $form = ActiveForm::begin(); ?>
++
++    <?= $form->field($model, 'image')->fileInput(['maxlength' => true]) ?>
++
++
++
++    <div class="form-group">
++        <?= Html::submitButton('Submit', ['class' => 'btn btn-success']) ?>
++    </div>
++
++    <?php ActiveForm::end(); ?>
++
++</div>

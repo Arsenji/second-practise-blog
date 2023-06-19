@@ -5,18 +5,121 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c90a764-b6d6-4ca5-bda7-3945e44895bb" name="Changes" comment="Add">
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_09_06_2023_10_36_[Changes]/07e823cf9832db0f70e457b87fcfd56f.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_09_06_2023_10_36_[Changes]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_09_06_2023_10_36__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_09_06_2023_10_40_[Changes]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_09_06_2023_10_40__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_30_05_2023_12_37_[Changes]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_30_05_2023_12_37__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/assets/PublicAsset.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/controllers/AuthController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/models/CommentForm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/models/SignUpForm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/modules/admin/controllers/CommentController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/modules/admin/views/article/category.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/modules/admin/views/article/tags.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/modules/admin/views/comment/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/views/auth/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/views/auth/signUp.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/views/partials/comment.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/views/partials/sidebar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/views/site/category.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/views/site/single.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/web/markup/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/web/markup/blog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/web/markup/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/web/markup/list-layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/web/public/css/animate.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/web/public/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/web/public/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/web/public/css/grabbing.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/web/public/css/owl.carousel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/web/public/css/owl.theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/web/public/css/owl.transitions.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/web/public/css/responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/web/public/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/web/public/fonts/fontawesome-webfont93e3.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/web/public/fonts/fontawesome-webfont93e3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/web/public/fonts/fontawesome-webfont93e3.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/web/public/fonts/fontawesome-webfont93e3.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/web/public/fonts/fontawesome-webfont93e3.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/web/public/fonts/fontawesome-webfontd41d.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/web/public/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/web/public/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/web/public/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/web/public/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/web/public/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/web/public/fonts/glyphicons-halflings-regulard41d.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/web/public/images/abc.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/web/public/images/about-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/web/public/images/about-me-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/web/public/images/author.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/web/public/images/blog-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/web/public/images/blog-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/web/public/images/blog-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/web/public/images/blog-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/web/public/images/blog-grid.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/web/public/images/blog-next.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/web/public/images/coming-soon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/web/public/images/comment-img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/web/public/images/comment.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/web/public/images/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/web/public/images/footer-img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/web/public/images/footer-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/web/public/images/header-3-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/web/public/images/header-logo-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/web/public/images/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/web/public/images/ins-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/web/public/images/ins-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/web/public/images/ins-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/web/public/images/ins-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/web/public/images/ins-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/web/public/images/ins-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/web/public/images/ins-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/web/public/images/ins-8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/web/public/images/ins-flow.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/web/public/images/klaksa.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/web/public/images/logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/web/public/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/web/public/images/logo2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/web/public/images/me-cover.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/web/public/images/me.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/web/public/images/p1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/web/public/images/p2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/web/public/images/p3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/web/public/images/r-p.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/web/public/images/related-post-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/web/public/images/related-post-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/web/public/images/related-post-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/web/public/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/web/public/js/jquery-1.11.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/web/public/js/jquery.stickit.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/web/public/js/map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/web/public/js/menu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/web/public/js/owl.carousel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/web/public/js/scripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/web/uploads/b9f1d215b4b9ca09dc678f7badcb198e.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/web/uploads/ca99103c0bd1bc5ffe766eb8c715dd2a.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/basic/config/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/config/web.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/basic/controllers/SiteController.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/controllers/SiteController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/basic/models/Article.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/models/Article.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/basic/models/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/models/Category.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/models/Tag.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/models/Tag.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/models/Comment.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/models/Comment.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/models/ImageUpLoad.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/models/ImageUpLoad.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/models/LoginForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/models/LoginForm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/models/User.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/basic/modules/admin/controllers/ArticleController.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/modules/admin/controllers/ArticleController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/modules/admin/views/article/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/modules/admin/views/article/view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/modules/admin/module.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/modules/admin/module.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/modules/admin/views/article/image.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/modules/admin/views/article/image.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/modules/admin/views/article/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/modules/admin/views/article/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/views/layouts/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/views/layouts/admin.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/basic/views/layouts/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/views/layouts/main.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/views/site/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/views/site/about.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/views/site/error.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/views/site/error.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/basic/views/site/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/views/site/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/views/site/login.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +154,6 @@
       </branch-storage>
     </favorite-branches>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -148,28 +250,34 @@
     </include_path>
   </component>
   <component name="ProjectId" id="2O3VI61drLhCMKTCBBp0NZj9j1y" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/OpenServer/domains/second-practise-blog&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.nodejs&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/OpenServer/domains/lift",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "php.override.implement.member.chooser.php.doc": "NONE",
+    "settings.editor.selected.configurable": "settings.nodejs",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\OpenServer\domains\second-practise-blog\basic\modules\admin\views\auth" />
+      <recent name="D:\OpenServer\domains\second-practise-blog\basic\views\site" />
       <recent name="D:\OpenServer\domains\second-practise-blog\basic\web\public\css" />
     </key>
   </component>
@@ -204,6 +312,8 @@
       <workItem from="1685611817336" duration="10855000" />
       <workItem from="1685790457444" duration="9629000" />
       <workItem from="1685889298177" duration="33397000" />
+      <workItem from="1686559185010" duration="38103000" />
+      <workItem from="1686992477225" duration="11288000" />
     </task>
     <task id="LOCAL-00001" summary="A project was created on yii2. Migrations have been carried out.">
       <created>1684598537665</created>
@@ -226,7 +336,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685439284271</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add photo">
+      <created>1686296597462</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1686296597462</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -354,12 +471,14 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="A project was created on yii2. Migrations have been carried out." />
     <MESSAGE value="A project was created on yii2. Migrations have been carried out. Add gii and create admin panel" />
     <MESSAGE value="Аdded the ability to add images" />
     <MESSAGE value="Аdded the ability to add category" />
     <MESSAGE value="Add" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add" />
+    <MESSAGE value="Add photo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add photo" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
