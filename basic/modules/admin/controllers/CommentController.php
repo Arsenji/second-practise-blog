@@ -1,4 +1,5 @@
 <?php
+
 namespace app\modules\admin\controllers;
 
 use app\models\Comment;
@@ -9,14 +10,13 @@ class CommentController extends Controller
     public function actionIndex()
     {
         $comments = Comment::find()->orderBy('id desc')->all();
-        return $this->render('index',['comments'=>$comments]);
+        return $this->render('index', ['comments' => $comments]);
     }
 
     public function actionDelete($id)
     {
         $comment = Comment::findOne($id);
-        if ($comment->delete())
-        {
+        if ($comment->delete()) {
             return $this->redirect(['comment/index']);
         }
     }
@@ -24,8 +24,7 @@ class CommentController extends Controller
     public function actionAllow($id)
     {
         $comment = Comment::findOne($id);
-        if($comment->allow())
-        {
+        if ($comment->allow()) {
             return $this->redirect(['index']);
         }
     }
@@ -33,8 +32,7 @@ class CommentController extends Controller
     public function actionDisallow($id)
     {
         $comment = Comment::findOne($id);
-        if($comment->disallow())
-        {
+        if ($comment->disallow()) {
             return $this->redirect(['index']);
         }
     }

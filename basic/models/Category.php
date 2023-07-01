@@ -58,6 +58,7 @@ class Category extends \yii\db\ActiveRecord
     {
         return Category::find()->all();
     }
+
     public function __toString()
     {
         return $this->title;
@@ -65,12 +66,12 @@ class Category extends \yii\db\ActiveRecord
 
     public static function getArticlesByCategory($id)
     {
-        $query = Article::find()->where(['category_id'=>$id]);
-        $count = $query -> count();
-        $pagination = new Pagination(['totalCount' => $count,'pageSize'=>5]);
+        $query = Article::find()->where(['category_id' => $id]);
+        $count = $query->count();
+        $pagination = new Pagination(['totalCount' => $count, 'pageSize' => 5]);
 
 
-        $articles=$query->offset($pagination->offset)
+        $articles = $query->offset($pagination->offset)
             ->limit($pagination->limit)
             ->all();
 

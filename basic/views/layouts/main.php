@@ -1,6 +1,7 @@
 <?php
 
 /* @var $this \yii\web\View */
+
 /* @var $content string */
 
 use app\assets\PublicAsset;
@@ -51,17 +52,17 @@ PublicAsset::register($this);
                 </ul>
                 <div class="i_con">
                     <ul class="nav navbar-nav text-uppercase">
-                        <?php if(Yii::$app->user->isGuest):?>
-                            <li><a href="<?= Url::toRoute(['auth/login'])?>">Login</a></li>
-                            <li><a href="<?= Url::toRoute(['auth/signup'])?>">Register</a></li>
+                        <?php if (Yii::$app->user->isGuest): ?>
+                            <li><a href="<?= Url::toRoute(['auth/login']) ?>">Login</a></li>
+                            <li><a href="<?= Url::toRoute(['auth/signup']) ?>">Register</a></li>
                         <?php else: ?>
                             <?= Html::beginForm(['/auth/logout'], 'post')
                             . Html::submitButton(
                                 'Logout (' . Yii::$app->user->identity->name . ')',
-                                ['class' => 'btn btn-link logout', 'style'=>"padding-top:10px;"]
+                                ['class' => 'btn btn-link logout', 'style' => "padding-top:10px;"]
                             )
                             . Html::endForm() ?>
-                        <?php endif;?>
+                        <?php endif; ?>
                     </ul>
                 </div>
 

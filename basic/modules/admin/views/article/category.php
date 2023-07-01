@@ -13,8 +13,7 @@ use yii\widgets\ActiveForm;
 
     <?php $form = ActiveForm::begin(); ?>
 
-    <?=Html::dropDownList('category', $selectedCategory, $categories, ['class'=>'form-control']) ?>
-
+    <?= Html::dropDownList('category', $selectedCategory, $categories, ['class' => 'form-control']) ?>
 
 
     <div class="form-group">

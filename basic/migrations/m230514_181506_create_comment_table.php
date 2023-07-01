@@ -60,6 +60,10 @@ class m230514_181506_create_comment_table extends Migration
      */
     public function safeDown()
     {
+        $this->dropForeignKey('fk-post-user_id', 'comment');
+        $this->dropForeignKey('fk-article_id', 'comment');
+        $this->dropIndex('idx-post-user-id', 'comment');
+        $this->dropIndex('idx-article_id', 'comment');
         $this->dropTable('{{%comment}}');
     }
 }

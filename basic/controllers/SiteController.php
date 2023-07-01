@@ -67,6 +67,7 @@ class SiteController extends Controller
     {
         return $this->render('index');
     }
+
     /**
      * Displays contact page.
      *
@@ -96,8 +97,9 @@ class SiteController extends Controller
     }
 
     public function actionIndex(): string
-    {   $data = Article::getAll();
-        $popular =  Article::getPopular();
+    {
+        $data = Article::getAll();
+        $popular = Article::getPopular();
         $recent = Article::getRecent();
         $categories = Category::getAll();
 
@@ -105,43 +107,45 @@ class SiteController extends Controller
             'articles' => $data['articles'],
             'pagination' => $data['pagination'],
             'popular' => $popular,
-            'recent'=>$recent,
-            'categories'=>$categories
+            'recent' => $recent,
+            'categories' => $categories
         ]);
     }
+
     public function actionView($id): string
     {
         $article = Article::findOne($id);
-        $popular =  Article::getPopular();
+        $popular = Article::getPopular();
         $recent = Article::getRecent();
         $categories = Category::getAll();
-        $comments = $article -> getArticleComments();
+        $comments = $article->getArticleComments();
         $commentForm = new CommentForm();
-        $article -> viewedCounter();
-        return $this->render('single',[
-            'article'=>$article,
+        $article->viewedCounter();
+        return $this->render('single', [
+            'article' => $article,
             'popular' => $popular,
-            'recent'=>$recent,
-            'categories'=>$categories,
-            'comments'=>$comments,
+            'recent' => $recent,
+            'categories' => $categories,
+            'comments' => $comments,
             'commentForm' => $commentForm,
 
         ]);
     }
+
     public function actionCategory($id)
     {
-        $popular =  Article::getPopular();
+        $popular = Article::getPopular();
         $recent = Article::getRecent();
         $categories = Category::getAll();
         $data = Category::getArticlesByCategory($id);
 
 
-        return $this->render('category',[
-            'articles'=>$data['articles'],
-            'pagination'=>$data['pagination'],
+        return $this->render('category', [
+            'articles' => $data['articles'],
+            'pagination' => $data['pagination'],
             'popular' => $popular,
-            'recent'=>$recent,
-            'categories'=>$categories
+            'recent' => $recent,
+            'categories' => $categories
         ]);
     }
 
@@ -149,13 +153,11 @@ class SiteController extends Controller
     {
         $model = new CommentForm();
 
-        if (Yii::$app->request->post())
-        {
+        if (Yii::$app->request->post()) {
             $model->load(Yii::$app->request->post());
-            if($model->saveComment($id))
-            {
+            if ($model->saveComment($id)) {
                 Yii::$app->getSession()->setFlash('comment', 'Your comment will be added soon!');
-                return $this -> redirect(['site/view', 'id'=>$id]);
+                return $this->redirect(['site/view', 'id' => $id]);
             }
         }
     }

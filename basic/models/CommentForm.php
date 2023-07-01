@@ -12,9 +12,10 @@ class CommentForm extends Model
     {
         return [
             [['comment'], 'required'],
-            [['comment'], 'string', 'length' => [3,250]]
+            [['comment'], 'string', 'length' => [3, 250]]
         ];
     }
+
     public function saveComment($article_id)
     {
         $comment = new Comment();
@@ -22,7 +23,7 @@ class CommentForm extends Model
         $comment->user_id = \Yii::$app->user->id;
         $comment->article_id = $article_id;
         $comment->status = 0;
-        $comment->date=date('Y-m-d');
-        return $comment -> save();
+        $comment->date = date('Y-m-d');
+        return $comment->save();
     }
 }

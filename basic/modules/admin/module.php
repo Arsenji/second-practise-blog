@@ -23,17 +23,15 @@ class Module extends \yii\base\Module
     public function behaviors()
     {
         return [
-            'access'    =>  [
-                'class' =>  AccessControl::className(),
-                'denyCallback'  =>  function($rule, $action)
-                {
+            'access' => [
+                'class' => AccessControl::className(),
+                'denyCallback' => function ($rule, $action) {
                     throw new \yii\web\NotFoundHttpException();
                 },
-                'rules' =>  [
+                'rules' => [
                     [
-                        'allow' =>  true,
-                        'matchCallback' =>  function($rule, $action)
-                        {
+                        'allow' => true,
+                        'matchCallback' => function ($rule, $action) {
                             return Yii::$app->user->identity->isAdmin;
                         }
                     ]

@@ -9,7 +9,5 @@ $this->title = 'about';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="site-about">
-
-
     <code><?= __FILE__ ?></code>
 </div>

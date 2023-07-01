@@ -76,11 +76,9 @@ class ArticleController extends Controller
     {
         $model = new Article();
 
-        if ($model->load(\Yii::$app->request->post()) && $model->saveArticle())
-        {
+        if ($model->load(\Yii::$app->request->post()) && $model->saveArticle()) {
             return $this->redirect(['view', 'id' => $model->id]);
-        } else
-        {
+        } else {
             return $this->render('create', [
                 'model' => $model,
             ]);
@@ -142,17 +140,15 @@ class ArticleController extends Controller
 
         $model = new ImageUpLoad;
 
-        if(\Yii::$app->request->isPost)
-        {
+        if (\Yii::$app->request->isPost) {
             $article = $this->findModel($id);
             $file = UploadedFile::getInstance($model, 'image');
-            if ($article->saveImage($model->uploadFile($file, $article->image)))
-            {
-             return $this->redirect(['view', 'id'=>$article->id]);
+            if ($article->saveImage($model->uploadFile($file, $article->image))) {
+                return $this->redirect(['view', 'id' => $article->id]);
             }
         }
 
-        return $this->render('image', ['model'=>$model]);
+        return $this->render('image', ['model' => $model]);
     }
 
     public function actionSetCategory($id)
@@ -170,10 +166,10 @@ class ArticleController extends Controller
             }
         }
         return $this->render('category', [
-           'article' => $article,
-           'selectedCategory' => $selectedCategory,
+            'article' => $article,
+            'selectedCategory' => $selectedCategory,
             'categories' => $categories
-       ]);
+        ]);
     }
 
     public function actionSetTags($id)
@@ -182,16 +178,15 @@ class ArticleController extends Controller
         $selectedTags = $article->getSelectedTags(); //
         $tags = ArrayHelper::map(Tag::find()->all(), 'id', 'title');
 
-        if(\Yii::$app->request->isPost)
-        {
+        if (\Yii::$app->request->isPost) {
             $tags = \Yii::$app->request->post('tags');
             $article->saveTags($tags);
-            return $this->redirect(['view', 'id'=>$article->id]);
+            return $this->redirect(['view', 'id' => $article->id]);
         }
 
         return $this->render('tags', [
-            'selectedTags'=>$selectedTags,
-            'tags'=>$tags
+            'selectedTags' => $selectedTags,
+            'tags' => $tags
         ]);
     }
 }

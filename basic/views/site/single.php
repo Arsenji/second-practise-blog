@@ -1,5 +1,7 @@
 <?php
+
 use yii\helpers\Url;
+
 ?>
 <!--main content start-->
 <div class="main-content">
@@ -8,18 +10,22 @@ use yii\helpers\Url;
             <div class="col-md-8">
                 <article class="post">
                     <div class="post-thumb">
-                        <a href="#"><img src="<?= $article->getImage();?>" alt=""></a>
+                        <a href="#"><img src="<?= $article->getImage(); ?>" alt=""></a>
                     </div>
                     <div class="post-content">
                         <header class="entry-header text-center text-uppercase">
-                            <h6><a href="<?= Url::toRoute(['site/category','id'=>$article->getCategory()->one()])?>"><?= $article->getCategory()->one()?></a></h6>
+                            <h6>
+                                <a href="<?= Url::toRoute(['site/category', 'id' => $article->getCategory()->one()]) ?>"><?= $article->getCategory()->one() ?></a>
+                            </h6>
 
-                            <h1 class="entry-title"><a href="<?= Url::toRoute(['site/view','id'=>$article->id])?>"><?= $article->title?></a></h1>
+                            <h1 class="entry-title"><a
+                                        href="<?= Url::toRoute(['site/view', 'id' => $article->id]) ?>"><?= $article->title ?></a>
+                            </h1>
 
 
                         </header>
                         <div class="entry-content">
-                            <?= $article->content?>
+                            <?= $article->content ?>
                         </div>
 
                         <div class="social-share">
@@ -38,18 +44,18 @@ use yii\helpers\Url;
                     </div>
                 </article>
 
-                <?= /** @var $commentForm /yii/basic/controllers/SiteController.php*/
+                <?= /** @var $commentForm /yii/basic/controllers/SiteController.php */
                 $this->render('/partials/comment', [
-                    'article'=>$article,
-                    'comments'=>$comments,
-                    'commentForm'=>$commentForm
-                ])?>
+                    'article' => $article,
+                    'comments' => $comments,
+                    'commentForm' => $commentForm
+                ]) ?>
             </div>
             <?= $this->render('/partials/sidebar', [
-                'popular'=>$popular,
-                'recent'=>$recent,
-                'categories'=>$categories
-            ]);?>
+                'popular' => $popular,
+                'recent' => $recent,
+                'categories' => $categories
+            ]); ?>
         </div>
     </div>
 </div>

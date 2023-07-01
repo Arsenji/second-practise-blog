@@ -3,7 +3,6 @@
 namespace app\models;
 
 use Yii;
-use yii\base\Model;
 use yii\data\Pagination;
 use yii\helpers\ArrayHelper;
 
@@ -73,6 +72,7 @@ class Article extends \yii\db\ActiveRecord
             'category_id' => 'Category ID',
         ];
     }
+
     public function saveArticle()
     {
         $this->user_id = Yii::$app->user->id;
@@ -81,13 +81,13 @@ class Article extends \yii\db\ActiveRecord
 
     public function saveImage($fileName)
     {
-        $this->image=$fileName;
+        $this->image = $fileName;
         return $this->save(false);
     }
 
     public function getImage(): string
     {
-        return ($this->image) ? '/uploads/' . $this->image :'no-image.png';
+        return ($this->image) ? '/uploads/' . $this->image : 'no-image.png';
     }
 
     public function deleteImage()
@@ -110,11 +110,10 @@ class Article extends \yii\db\ActiveRecord
     public function saveCategory($category_id)
     {
         $category = Category::findOne($category_id);
-        if($category != null)
-        {
+        if ($category != null) {
             $this->link('category', $category);
             return true;
-        }
+        } else return false;
     }
 
     public function getTags()
@@ -131,13 +130,11 @@ class Article extends \yii\db\ActiveRecord
 
     public function saveTags($tags)
     {
-        if (is_array($tags))
-        {
+        if (is_array($tags)) {
             $this->clearCurrentTags();
 
-            foreach($tags as $tag_id)
-            {
-                $tag = ArticleTag::findOne($tag_id);
+            foreach ($tags as $tag_id) {
+                $tag = Tag::findOne($tag_id);
                 $this->link('tags', $tag);
             }
         }
@@ -145,22 +142,23 @@ class Article extends \yii\db\ActiveRecord
 
     public function clearCurrentTags()
     {
-        ArticleTag::deleteAll(['article_id'=>$this->id]);
+        ArticleTag::deleteAll(['article_id' => $this->id]);
     }
 
     public function getDate()
     {
         return Yii::$app->formatter->asDate($this->date);
     }
+
     public static function getAll()
     {
         $query = Article::find();
 
-        $count = $query -> count();
+        $count = $query->count();
 
-        $pagination = new Pagination(['totalCount' => $count,'pageSize'=>1]);
+        $pagination = new Pagination(['totalCount' => $count, 'pageSize' => 1]);
 
-        $articles=$query->offset($pagination->offset)
+        $articles = $query->offset($pagination->offset)
             ->limit($pagination->limit)
             ->all();
 
@@ -168,6 +166,7 @@ class Article extends \yii\db\ActiveRecord
         $data ['articles'] = $articles;
         return $data;
     }
+
     public static function getPopular()
     {
         return Article::find()->orderBy('viewed desc')->limit(3)->all();
@@ -180,23 +179,23 @@ class Article extends \yii\db\ActiveRecord
 
     public function getComments()
     {
-        return $this -> hasMany(Comment::className(), ['article_id' => 'id']);
+        return $this->hasMany(Comment::className(), ['article_id' => 'id']);
     }
 
-    public function     getArticleComments()
+    public function getArticleComments()
     {
         Yii::$app->getSession()->getFlash('comment', 'Your comment wil be added soon!');
-        return $this->getComments()->where(['status'=>1])->all();
+        return $this->getComments()->where(['status' => 1])->all();
     }
 
     public function getAuthor()
     {
-        return $this->hasOne(User::className(), ['id'=>'user_id']);
+        return $this->hasOne(User::className(), ['id' => 'user_id']);
     }
 
     public function viewedCounter()
     {
-        $this->viewed +=1;
+        $this->viewed += 1;
         return $this->save(false);
     }
 }
